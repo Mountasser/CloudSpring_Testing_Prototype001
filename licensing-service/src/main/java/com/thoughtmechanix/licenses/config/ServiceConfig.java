@@ -9,10 +9,10 @@ public class ServiceConfig{
   @Value("${example.property}")
   private String exampleProperty="";
 
-  @Value("${redis.server}")
+ // @Value("${redis.server}")
   private String redisServer="";
 
-  @Value("${redis.port}")
+ // @Value("${redis.port}")
   private String redisPort="";
 
   @Value("${signing.key}")
