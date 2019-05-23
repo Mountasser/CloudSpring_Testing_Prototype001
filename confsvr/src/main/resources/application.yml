@@ -44,7 +44,7 @@ spring:
           native:
              #searchLocations: file://<chapter 3>/confsvr/src/main/resources/config/licensingservice,
              #                 file://<chapter 3>confsvr/src/main/resources/config/organizationservice
-              searchLocations: classpath:config/,classpath:config/licensingservice,classpath:config/organizationservice
+              searchLocations: classpath:config/,classpath:config/licensingservice,classpath:config/organizationservice,classpath:config/authenticationservice
 
 
 #Setting logging levels
